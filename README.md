@@ -7,11 +7,11 @@
 - Data: Contains the 3 data(.csv) files. 
 
 ## Project Details
-We have been given historical sales data for 45 Walmart stores situated in various regions. Each store comprises multiple departments, and our objective is to forecast sales for each department within these stores.
+We have been given historical sales data for 45 stores situated in various regions. Each store comprises multiple departments, and our objective is to forecast sales for each department within these stores.
 
-Furthermore, Walmart organizes several promotional markdown events during the year. These markdowns coincide with significant holidays, with the four most significant ones being the Super Bowl, Labor Day, Thanksgiving, and Christmas. The weeks encompassing these holidays carry five times more weight in the evaluation compared to regular weeks. One of the challenges we face in this competition is modeling the impact of markdowns during these holiday weeks when we don't have complete or ideal historical data.
+Furthermore, stores organizes several promotional markdown events during the year. These markdowns coincide with significant holidays, with the four most significant ones being the Super Bowl, Labor Day, Thanksgiving, and Christmas. The weeks encompassing these holidays carry five times more weight in the evaluation compared to regular weeks. One of the challenges we face in this competition is modeling the impact of markdowns during these holiday weeks when we don't have complete or ideal historical data.
 
-The dataset utilized in this endeavor has been sourced from [Kaggle's Walmart Recruiting - Store Sales Forecasting](https://www.kaggle.com/competitions/walmart-recruiting-store-sales-forecasting/data). This dataset comprises of data from several files:
+.This dataset comprises of data from several files
 
 * stores.csv
 
