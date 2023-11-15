@@ -1,7 +1,8 @@
-# Walmart Sales Prediction
+# Department wide Sales and Weekly_Sales Prediction
 
 ## Files Structure:
-- Walmart Sales Prediction.ipynb: Contains the entire project code
+- Sales Prediction.ipynb: Contains the Dept-wide-sales for each store project code
+- Effects_of_Markdown_and_Weekly_sales.ipynb:contains the weekly_sales prediction for each store project code
 - Utilities: Contains my own custom modules for evaluation metrics(EvaluationMetrics.py) and visualization(Visualizations.py)
 - Data: Contains the 3 data(.csv) files. 
 
@@ -16,7 +17,7 @@ The dataset utilized in this endeavor has been sourced from [Kaggle's Walmart Re
 
 This file contains anonymized information about the 45 stores, indicating the type and size of store.
 
-* train.csv
+* sales.csv
 
 This is the historical training data, which covers to 2010-02-05 to 2012-11-01. Within this file you will find the following fields:
 
@@ -70,19 +71,14 @@ For convenience, the four holidays fall within the following weeks in the datase
 
 ### Predictive Modelling 
 Applied the below models with hyperparameter tuning using GridSearchCV:
-1. Multiple Linear Regression(MLR)
-2. Ridge, Lasso and ElasticNet Reression
-3. MLR, Ridge, Lasso and ElasticNet Regression with polynomial features(degree=3) 
-2. Support Vector Regressor
-3. KNN
-4. Decision Tree
-5. Ensemble Methods-Random Forest, AdaBoost, Gradient Boosting, XGBoost
-6. ANN
+1. SGD Regressor()
+2. Extratreeregresssor()
+
 
 ### Model Evaluation
 Used the below metrics to compare the model's performance on test set:
 1. R-squared
 2. Root Mean Squared Error(RMSE)
 
-### Model Selection
-Among all the tested models, the XGBoost Regressor exhibited the best performance. It explains approximately 84% of the variance in the data and has a root-mean-squared error of 9085.23.
+### output submission
+After the model prediction successfully,convert to csv file as a output.
